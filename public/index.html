@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lucas Oliveira — Apple Lover · The Dev</title>
+<meta name="description" content="Site pessoal de Lucas Oliveira.">
+<meta name="theme-color" content="#EBF4FA">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo</a>
+
+<nav class="glass" id="nav" aria-label="Principal">
+  <a href="#top" class="logo"><i class="ic" aria-hidden="true">&#xF8FF;</i><span data-bind="firstName">Lucas</span></a>
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="links"><span></span><span></span><span></span></button>
+  <ul class="links" id="links">
+    <li><a href="#about"><i class="ic" aria-hidden="true">&#x100269;</i>Sobre</a></li><li><a href="#birthday"><i class="ic" aria-hidden="true">&#x100249;</i>Aniversário</a></li><li><a href="#projects"><i class="ic" aria-hidden="true">&#x100215;</i>Projetos</a></li><li><a href="#gallery"><i class="ic" aria-hidden="true">&#x1003C5;</i>Fotos</a></li>
+  </ul>
+</nav>
+
+<main id="main">
+  <header class="hero" id="top">
+    <div class="sun" data-speed="-.12" aria-hidden="true"></div>
+    <div class="sea" data-speed=".06" aria-hidden="true">
+      <svg viewBox="0 0 2880 200" preserveAspectRatio="none"><path class="w1" d="M0 90C120 50 240 50 360 90S600 130 720 90s240-40 360 0 240 40 360 0V200H0Z"/><path class="w1" transform="translate(1440)" d="M0 90C120 50 240 50 360 90S600 130 720 90s240-40 360 0 240 40 360 0V200H0Z"/></svg>
+      <svg viewBox="0 0 2880 200" preserveAspectRatio="none"><path class="w2" d="M0 110C120 80 240 80 360 110S600 140 720 110s240-30 360 0 240 30 360 0V200H0Z"/><path class="w2" transform="translate(1440)" d="M0 110C120 80 240 80 360 110S600 140 720 110s240-30 360 0 240 30 360 0V200H0Z"/></svg>
+      <svg viewBox="0 0 2880 200" preserveAspectRatio="none"><path class="w3" d="M0 160C180 140 300 140 480 160S780 180 960 160s300-20 480 0V200H0Z"/><path class="w3" transform="translate(1440)" d="M0 160C180 140 300 140 480 160S780 180 960 160s300-20 480 0V200H0Z"/></svg>
+    </div>
+    <div class="in" data-speed=".1">
+      <p class="badge glass rv"><i class="ic" aria-hidden="true">&#xF8FF;</i>Apple Lover</p>
+      <h1 class="rv" style="--d:.1s" data-bind="displayName">Lucas Oliveira</h1>
+      <p class="sign rv" style="--d:.2s" data-bind="signature"></p>
+      <p class="intro rv" style="--d:.3s" data-bind="intro"></p>
+      <ul class="socials rv" style="--d:.4s" id="heroSocials"></ul>
+    </div>
+    <a class="scroll" href="#about" aria-label="Rolar para baixo"></a>
+  </header>
+
+  <section id="about"><div class="wrap about">
+    <div class="portrait rv" id="portrait"><span class="tag glass" data-bind="role"></span></div>
+    <div>
+      <span class="eyebrow rv">Sobre</span>
+      <h2 class="rv" data-bind="aboutTitle"></h2>
+      <div id="aboutText" class="rv"></div>
+      <ul class="chips rv" id="chips"></ul>
+    </div>
+  </div></section>
+
+  <section id="birthday" class="bday"><div class="confetti" id="confetti" aria-hidden="true"></div><div class="wrap">
+    <span class="eyebrow rv">Contagem regressiva</span>
+    <h2 class="rv" id="bTitle">Próximo aniversário</h2>
+    <div class="count" id="count" role="timer" aria-live="off">
+      <div class="unit glass rv"><span class="num" id="n-d"><span>--</span></span><small>dias</small></div>
+      <div class="unit glass rv" style="--d:.08s"><span class="num" id="n-h"><span>--</span></span><small>horas</small></div>
+      <div class="unit glass rv" style="--d:.16s"><span class="num" id="n-m"><span>--</span></span><small>min</small></div>
+      <div class="unit glass rv" style="--d:.24s"><span class="num" id="n-s"><span>--</span></span><small>seg</small></div>
+    </div>
+    <p class="bnote rv" id="bNote"></p>
+  </div></section>
+
+  <section id="projects"><div class="wrap">
+    <span class="eyebrow rv">Projetos</span>
+    <h2 class="rv">Código, sistemas e experimentos.</h2>
+    <div class="bento" id="projGrid"></div>
+  </div></section>
+
+  <section id="gallery"><div class="wrap">
+    <span class="eyebrow rv">Fotografia</span>
+    <h2 class="rv">Praia, estrada e luz de verão.</h2>
+    <div class="masonry" id="masonry"></div>
+    <p class="note rv"><i class="ic" aria-hidden="true">&#x1001FE;</i>As imagens estão em qualidade reduzida por causa do sistema anti-cópia que protege o meu trabalho.</p>
+  </div></section>
+
+</main>
+
+<footer><div class="wrap"><span data-bind="copyright"></span></div></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Foto ampliada"><button id="lbClose" aria-label="Fechar">×</button><div id="lbBody"></div></div>
+
+<script src="/js/app.js" defer></script>
+</body>
+</html>

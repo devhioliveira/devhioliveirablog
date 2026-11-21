@@ -1,0 +1,221 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "site": {
+    "language": "pt-BR",
+    "description": "Site pessoal de Lucas Oliveira: tecnologia, desenvolvimento, Android, AOSP, Linux, fotografia e verão.",
+    "themeColor": "#000000"
+  },
+  "theme": {
+    "bg": "#000000",
+    "heroTop": "#161617",
+    "surface": "rgba(22, 22, 23, 0.72)",
+    "surfaceSolid": "#1D1D1F",
+    "text": "#F5F5F7",
+    "muted": "#86868B",
+    "accent": "#2997FF",
+    "accentFill": "#0071E3",
+    "gold": "#F59E0B"
+  },
+  "liquidGlass": {
+    "enabled": true,
+    "nav": {
+      "bezel": 18,
+      "shift": 10,
+      "blur": 4,
+      "saturate": 1.5,
+      "tint": 0.30,
+      "tintScrolled": 0.55,
+      "blurScrolled": 10
+    }
+  },
+  "fonts": [
+    {
+      "family": "SF Pro Display",
+      "file": "SF-Pro-Display-Regular.otf",
+      "weight": "400"
+    },
+    {
+      "family": "SF Pro Display",
+      "file": "SF-Pro-Display-Medium.otf",
+      "weight": "500"
+    },
+    {
+      "family": "SF Pro Display",
+      "file": "SF-Pro-Display-Semibold.otf",
+      "weight": "600"
+    },
+    {
+      "family": "SF Pro Display",
+      "file": "SF-Pro-Display-Bold.otf",
+      "weight": "700"
+    },
+    {
+      "family": "SF Pro Text",
+      "file": "SF-Pro-Text-Regular.otf",
+      "weight": "400"
+    },
+    {
+      "family": "SF Pro Text",
+      "file": "SF-Pro-Text-Medium.otf",
+      "weight": "500"
+    },
+    {
+      "family": "SF Pro Text",
+      "file": "SF-Pro-Text-Semibold.otf",
+      "weight": "600"
+    },
+    {
+      "family": "SF Pro Text",
+      "file": "SF-Pro-Text-Bold.otf",
+      "weight": "700"
+    }
+  ],
+  "profile": {
+    "fullName": "Lucas Oliveira",
+    "displayName": "Lucas Oliveira",
+    "role": "Dev",
+    "signature": "É o dev, não tem jeito.",
+    "intro": "Apaixonado por tecnologia, desenvolvo softwares, soluções inteligentes e automações que simplificam o dia a dia. Gosto de transformar ideias em projetos e usar a tecnologia para ajudar pessoas.",
+    "email": "lucasfer.oliveiraa10@gmail.com"
+  },
+  "birthday": {
+    "month": 12,
+    "day": 5,
+    "hour": 0,
+    "minute": 0
+  },
+  "socials": [
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/dev.hioliveira/"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/devhioliveira"
+    }
+  ],
+  "about": {
+    "title": "O Dev, por trás do código.",
+    "portrait": "/img/eu.jpg",
+    "paragraphs": [
+      "Sou Lucas Oliveira — ou simplesmente, o dev. Apaixonado por tecnologia e curioso por natureza, gosto de entender como as coisas funcionam, explorar novas possibilidades e transformar ideias em projetos reais.",
+      "Meu principal foco é a engenharia de sistemas Android. Trabalho com AOSP, Custom ROMs, adaptações e personalizações que vão além das limitações dos fabricantes. Gosto especialmente de levar atualizações e recursos exclusivos a dispositivos que originalmente não os receberiam, prolongando sua vida útil.",
+      "Meu Galaxy A36 5G é um exemplo disso: nele experimento funcionalidades inspiradas em outros sistemas, melhorias de câmera e modificações que tornam a experiência mais completa e personalizada. Para mim, desenvolver é experimentar, enfrentar desafios e aprender a cada descoberta.",
+      "Mas minha criatividade vai além do código. Sou apaixonado por fotografia, gravação de vídeos e produção audiovisual.",
+      "Também sirvo como vice-coordenador da Pastoral da Comunicação (PASCOM) na Paróquia Aparecida, onde uno tecnologia, criatividade e comunicação para contribuir com a comunidade."
+    ],
+    "chips": [
+      "Desenvolvimento",
+      "Android",
+      "AOSP",
+      "Linux",
+      "Customização",
+      "Apple",
+      "Fotografia",
+      "Praia & verão"
+    ]
+  },
+  "projects": [
+    {
+      "category": "Android · KernelSU",
+      "title": "A36 to Flagship",
+      "description": "Módulo KernelSU que leva recursos do Galaxy S25 para o Galaxy A36: Galaxy AI, live blur, animações de ponta e transição de relógio.",
+      "tags": [
+        "KernelSU",
+        "Android",
+        "One UI"
+      ],
+      "url": "https://github.com/devhioliveira/a36_to_flagship",
+      "featured": true
+    },
+    {
+      "category": "Android · KernelSU",
+      "title": "A36 Features",
+      "description": "Versão enxuta do A36 to Flagship, só com o visual do S25: animações, live blur e transição do relógio no AOD. Sem Galaxy AI.",
+      "tags": [
+        "KernelSU",
+        "One UI"
+      ],
+      "url": "https://github.com/devhioliveira/a36_features"
+    },
+    {
+      "category": "Ferramenta",
+      "title": "Cancunf Flash",
+      "description": "Script em Python que automatiza o flash de Custom ROMs Android 16 no Moto G54 5G e G64 5G, com KSU e guias do aparelho.",
+      "tags": [
+        "Python",
+        "Moto G54",
+        "Custom ROM"
+      ],
+      "url": "https://github.com/devhioliveira/cancunfFlash"
+    },
+    {
+      "category": "Custom ROM",
+      "title": "XOS 15 para Moto G54 / G64",
+      "description": "Port da XOS 15 (base Infinix Note 40 5G) para o Moto G54 5G e G64 5G, com recursos e animações flagship.",
+      "tags": [
+        "ROM",
+        "XOS",
+        "Moto G54"
+      ],
+      "url": "https://github.com/devhioliveira/xos_port_g54-g64"
+    },
+    {
+      "category": "Software",
+      "title": "Court Replay",
+      "description": "Sistema de replay para quadra esportiva: aperte um botão e os 30 segundos ao redor do momento viram um clipe de vídeo.",
+      "tags": [
+        "Vídeo",
+        "Replay"
+      ],
+      "url": "https://github.com/devhioliveira/court-replay"
+    },
+    {
+      "category": "Software",
+      "title": "NSA Stream",
+      "description": "Projeto para gerenciar as legendas usadas nas transmissões da Paróquia Nossa Senhora Aparecida.",
+      "tags": [
+        "Transmissão",
+        "Legendas"
+      ],
+      "url": "https://github.com/devhioliveira/nsa-stream"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/img/20260628-113853.jpg",
+      "alt": "20260628_113853",
+      "ratio": "563/1000"
+    },
+    {
+      "src": "/img/photo-4902210075078889061-y.jpg",
+      "alt": "photo_4902210075078889061_y",
+      "ratio": "745/1000"
+    },
+    {
+      "src": "/img/photo-4902210075078889062-y.jpg",
+      "alt": "photo_4902210075078889062_y",
+      "ratio": "1000/751"
+    },
+    {
+      "src": "/img/photo-4902210075078889063-y.jpg",
+      "alt": "photo_4902210075078889063_y",
+      "ratio": "1000/670"
+    },
+    {
+      "src": "/img/photo-4902210075078889064-y.jpg",
+      "alt": "photo_4902210075078889064_y",
+      "ratio": "1000/666"
+    },
+    {
+      "src": "/img/photo-4902210075078889065-y.jpg",
+      "alt": "photo_4902210075078889065_y",
+      "ratio": "1000/668"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "site-lucas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site pessoal do Lucas Oliveira",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@ybouane/liquidglass": "^1.0.3"
+  }
+}
