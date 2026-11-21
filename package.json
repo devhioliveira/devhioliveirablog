@@ -9,8 +9,5 @@
   },
   "engines": {
     "node": ">=18"
-  },
-  "dependencies": {
-    "@ybouane/liquidglass": "^1.0.3"
   }
 }
